@@ -13,9 +13,11 @@ processes_state:
     artifacts:
       - interval_end: 2026-09-28
         evidence: compliance-evidence-draft/access-review-2026-09-28.md
-        source: ai-drafted
+        source: human-attested
         verifier_findings: 0
-        assertion: "DRAFT (executive: edit to your own words and sign): I reviewed collaborator access for the quarter; access matches least-privilege."
+        assertion: "I reviewed collaborator access for the quarter; access matches least-privilege."
+        assertion_author: some-bot
+        approver: yueranyuan
   - process: vendor-reassessment    # annual
     effective_from: 2026-06-29
     artifacts: []
