@@ -10,7 +10,12 @@ note: >-
 processes_state:
   - process: access-review          # quarterly
     effective_from: 2026-06-29
-    artifacts: []
+    artifacts:
+      - interval_end: 2026-09-28
+        evidence: compliance-evidence-draft/access-review-2026-09-28.md
+        source: ai-drafted
+        verifier_findings: 0
+        assertion: "DRAFT (executive: edit to your own words and sign): I reviewed collaborator access for the quarter; access matches least-privilege."
   - process: vendor-reassessment    # annual
     effective_from: 2026-06-29
     artifacts: []
