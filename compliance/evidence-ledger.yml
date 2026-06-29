@@ -10,7 +10,15 @@ note: >-
 processes_state:
   - process: access-review          # quarterly
     effective_from: 2026-06-29
-    artifacts: []
+    artifacts:
+      - interval_end: 2026-09-28
+        evidence: compliance-evidence-draft/access-review-2026-09-28.md
+        source: human-attested
+        verifier_findings: 0
+        assertion: "I, yueranyuan, personally reviewed the quarter's collaborator access; it matches least-privilege; no revocations needed."
+        assertion_author: yueranyuan
+        approver: yueranyuan
+        time_to_decide_s: 95
   - process: vendor-reassessment    # annual
     effective_from: 2026-06-29
     artifacts: []
